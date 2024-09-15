@@ -4,7 +4,7 @@ from firebase_admin import db
 
 cred = credentials.Certificate("serviceAccountKey.json")
 firebase_admin.initialize_app(cred,{
-    'databaseURL':'https://smartattendancerealtime-default-rtdb.asia-southeast1.firebasedatabase.app/'
+    'databaseURL':''
 })
 
 ref = db.reference('Students')
