@@ -9,8 +9,8 @@ from firebase_admin import  storage
 
 cred = credentials.Certificate("serviceAccountKey.json")
 firebase_admin.initialize_app(cred, {
-    'databaseURL': "https://smartattendancerealtime-default-rtdb.asia-southeast1.firebasedatabase.app/",
-    'storageBucket': "smartattendancerealtime.appspot.com"
+    'databaseURL': "",
+    'storageBucket': ""
 })
 
 
